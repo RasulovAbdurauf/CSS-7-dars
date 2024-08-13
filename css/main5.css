@@ -1,0 +1,38 @@
+.col{
+    border: 1px solid white;
+    display: block;
+    float: left ;
+    border-radius: 20px ;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -moz-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -o-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -ms-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    transition: all 0.5s ease-out;
+    font-size: 50px;
+    /*padding: 50px 50px;*/
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.wrap{
+    border: 1px solid indigo;
+    background: linear-gradient(purple,mediumblue);
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 200px;
+    position: absolute;
+}
+.coll{
+    color: orange;
+    float: left;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+.coll2{
+    color: mediumblue;
+    padding-top: 70px;
+}

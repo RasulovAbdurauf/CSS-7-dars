@@ -1,0 +1,510 @@
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+}
+.loader-block{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: relative;
+   top: 40%;
+   left: 40%; 
+}
+.dum{
+    /* width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    animation-name: az6;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border: 20px solid rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    border-right-color: brown;
+    border-bottom-color: brown; */
+    width: 150px;
+    height: 150px;
+    border-right: 20px solid white;
+    border-bottom: 20px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 170px;
+    animation-name: dum;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: whitesmoke 0 9px 13px;
+}
+.oyoq{
+    width: 120px;
+    height: 70px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    animation-name: oyoq;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: lightgray 0 0 20px;
+    rotate: -35deg;
+}
+.oyoq2{
+    width: 120px;
+    height: 70px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    animation-name: oyoq2;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: lightgray 0 0 20px;
+    rotate: 35deg;
+}
+
+.qorin{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    /* animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    box-shadow: gray 0 0 2px;
+    margin-bottom: 38px;
+    margin-left: 20px;
+}
+.dog{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+.quloq{
+    width: 120px;
+    height: 60px;
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: -200px;
+    left: -35px;
+    animation-name: quloq;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: whitesmoke 0 0 10px inset;
+    rotate: -53deg;
+    z-index: -3;
+}
+.quloq2{
+    width: 110px;
+    height: 60px;
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: -200px;
+    left: 170px;
+    animation-name: quloq2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: whitesmoke 0 0 10px inset;
+    rotate: 53deg;
+    z-index: -3;
+}
+.til{
+    width: 45px;
+    height: 70px;
+    background-color: indianred;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: absolute;
+    top: 200px;
+    left: 103px;
+    animation-name: til;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.bosh{
+    width: 250px;
+    height: 250px;
+    background-color: lightgray;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 43%;
+    border-bottom-right-radius: 43%;
+    position: absolute;
+    top: -225px;
+    left: 0;
+    animation-name: bosh;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: gray 0 0 4px;
+    z-index: 3;
+}
+.koz{
+    width: 70px;
+    height: 90px;
+    background-color: white;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    animation-name: loader;
+    animation-duration: 6s;
+    /* animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    rotate: -5deg;
+}
+.koz2{
+    width: 70px;
+    height: 90px;
+    background-color: white;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    animation-name: loader;
+    animation-duration: 6s;
+    /* animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    rotate: 5deg;
+}
+.qorachiq{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 36px;
+    left: 10px;
+    animation-name: qorachiq;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: white;
+}
+.qorachiq2{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 36px;
+    left: 10px;
+    animation-name: qorachiq2;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: white;
+}
+h1{
+    color: white;
+}
+.yuz{
+    width: 125px;
+    height: 150px;
+    background-color: rgb(45, 45, 45);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 22%;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.yuz2{
+    width: 125px;
+    height: 150px;
+    background-color: rgb(45, 45, 45);
+    border-top-left-radius: 0;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 22%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 125px;
+    animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.burun{
+    width: 100px;
+    height: 60px;
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    position: absolute;
+    top: 100px;
+    left: 75px;
+    animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+/* .loader-item2{
+    width: 50px;
+    height: 190px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 60px;
+    margin-top: -30px;
+    animation-name: loader;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.loader-item3{
+    width: 50px;
+    height: 216px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 120px;
+    margin-top: -50px;
+    animation-name: loader;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.loader-item4{
+    width: 50px;
+    height: 180px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 180px;
+    margin-top: -40px;
+    animation-name: loader;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.loader-item5{
+    width: 80px;
+    height: 60px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 240px;
+    margin-top: 16px;
+    animation-name: loader;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+} */
+ /* .dum:nth-child(2){
+    top: -30px;
+    left: 60px;
+    animation-delay: 1.3s;
+    width: 50px;
+    height: 190px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+.dum:nth-child(3){
+    top: -50px;
+    left: 120px;
+    animation-delay: 2.3s;
+    width: 50px;
+    height: 216px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.dum:nth-child(4){
+    top: -40px;
+    left: 180px;
+    animation-delay: 3s;
+    width: 50px;
+    height: 180px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.dum:nth-child(5){
+    top: 16px;
+    left: 240px;
+    animation-delay: 3s;
+    width: 80px;
+    height: 60px;
+    background-color: white;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 80%;
+    position: absolute;
+    animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+} */
+@keyframes dum{
+    0%{
+        transform: translate(0,0) rotate(-20deg);
+    }
+    50%{
+        transform: translate(0,0) rotate(20deg);
+    }
+    100%{
+        transform: translate(0,0) rotate(-20deg);
+    }
+}
+ @keyframes til{
+    0%{
+        transform: translate(0,8px);
+    }
+    50%{
+        transform: translate(0,-8px);
+    }
+    100%{
+        transform: translate(0,8px);
+    }
+}
+@keyframes bosh{
+    0%{
+        transform: translate(10px,0);
+    }
+    25%{
+        transform: translate(0,-10px);
+    }
+    50%{
+        transform: translate(10px,0);
+    }
+    75%{
+        transform: translate(0,-10px);
+    }
+    100%{
+        transform: translate(10px,0);
+    }
+}
+@keyframes quloq{
+    0%{
+        transform: translate(10px,0);
+    }
+    25%{
+        transform: translate(0,-10px);
+    }
+    50%{
+        transform: translate(10px,0);
+    }
+    75%{
+        transform: translate(0,-10px);
+    }
+    100%{
+        transform: translate(10px,0);
+    }
+}
+@keyframes quloq2{
+    0%{
+        transform: translate(10px,0);
+    }
+    25%{
+        transform: translate(0,-10px);
+    }
+    50%{
+        transform: translate(10px,0);
+    }
+    75%{
+        transform: translate(0,-10px);
+    }
+    100%{
+        transform: translate(10px,0);
+    }
+}

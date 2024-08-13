@@ -1,0 +1,101 @@
+.col{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.col1{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 1px grey;
+}
+.col2{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 30px;
+    box-shadow: 20px 20px 1px grey;
+}
+.col3{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 30px;
+    box-shadow: 20px 20px 25px grey;
+}
+.col4{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 20px 20px 0 lavender;
+}
+.col5{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 20px 20px 1px gray;
+}
+.col6{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0 20px 0 grey;
+}
+.col7{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: -10px -10px 1px grey;
+}

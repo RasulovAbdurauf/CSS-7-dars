@@ -1,0 +1,14 @@
+.wrap{
+    width: 500px;
+    height: 100px;
+    background: linear-gradient(90deg, blue,green,yellow,orange,red);
+    text-align: center;
+    color: grey;
+}
+.col{
+    padding-top: 20px;
+    line-height: 10px;
+}
+.col2{
+    padding-bottom: -50px;
+}

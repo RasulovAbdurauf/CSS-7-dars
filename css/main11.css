@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.box{
+    width: 500px;
+    height: 200px;
+    box-shadow: 10px -5px 40px rgba(0,0,255,1),
+    -20px 10px 40px rgb(59, 167, 17),
+    10px -5px 40px rgba(255,0,255,1),-10px -10px 40px rgba(255,255,0,1);
+    border: 5px solid transparent;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+/*
+.box2{
+    width: 250px;
+    height: 200px;
+    box-shadow: -12px 0 0 black, -10px -10px 0 blue,
+    10px 0 0 red,
+    -10px 10px 0 purple;
+    border: 5px solid transparent;
+    margin-left: 560px;
+    margin-top: -210px;
+}*/

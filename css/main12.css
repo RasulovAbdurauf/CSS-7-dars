@@ -1,0 +1,23 @@
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* animation-name: loader; */
+    animation-duration: 5s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite;
+}
+@keyframes block{
+    0%{
+        transform: translateY(100px);
+        background-color: green;
+    }
+    25%{
+        transform: translateX(100px) rotateX(1360deg);
+        background-color: rgb(154, 73, 126);
+    }
+}
